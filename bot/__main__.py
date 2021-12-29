@@ -87,103 +87,103 @@ def log(update, context):
 
 
 help_string_telegraph = f'''<br>
-<b>/{BotCommands.HelpCommand}</b>: To get this message
+<b>/{BotCommands.HelpCommand}</b>: Untuk mendapatkan pesan ini
 <br><br>
-<b>/{BotCommands.MirrorCommand}</b> [download_url][magnet_link]: Start mirroring the link to Google Drive.
+<b>/{BotCommands.MirrorCommand}</b> [download_url][magnet_link]: Mulai Mirorring Link ke Google Drive.
 <br><br>
-<b>/{BotCommands.TarMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the archived (.tar) version of the download
+<b>/{BotCommands.TarMirrorCommand}</b> [download_url][magnet_link]: Mulai mirroring dan unggah versi unduhan (.tar) yang diarsipkan
 <br><br>
-<b>/{BotCommands.ZipMirrorCommand}</b> [download_url][magnet_link]: Start mirroring and upload the archived (.zip) version of the download
+<b>/{BotCommands.ZipMirrorCommand}</b> [download_url][magnet_link]: Mulai mirroring dan unggah versi unduhan (.zip) yang diarsipkan
 <br><br>
-<b>/{BotCommands.UnzipMirrorCommand}</b> [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to Google Drive
+<b>/{BotCommands.UnzipMirrorCommand}</b> [download_url][magnet_link]: Mulai mirroring dan jika file yang diunduh adalah arsip apa pun, ekstrak ke Google Drive
 <br><br>
-<b>/{BotCommands.QbMirrorCommand}</b> [magnet_link]: Start Mirroring using qBittorrent, Use <b>/{BotCommands.QbMirrorCommand} s</b> to select files before downloading
+<b>/{BotCommands.QbMirrorCommand}</b> [magnet_link]: Mulai Mirorring menggunakan qBittorrent, Gunakan /qbmirror s untuk memilih file sebelum mengunduh
 <br><br>
-<b>/{BotCommands.QbTarMirrorCommand}</b> [magnet_link]: Start mirroring using qBittorrent and upload the archived (.tar) version of the download
+<b>/{BotCommands.QbTarMirrorCommand}</b> [magnet_link]: Mulai mirroring menggunakan qBittorrent dan unggah versi unduhan (.tar) yang diarsipkan
 <br><br>
-<b>/{BotCommands.QbZipMirrorCommand}</b> [magnet_link]: Start mirroring using qBittorrent and upload the archived (.zip) version of the download
+<b>/{BotCommands.QbZipMirrorCommand}</b> [magnet_link]: Mulai mirroring menggunakan qBittorrent dan unggah versi unduhan (.zip) yang diarsipkan
 <br><br>
-<b>/{BotCommands.QbUnzipMirrorCommand}</b> [magnet_link]: Starts mirroring using qBittorrent and if downloaded file is any archive, extracts it to Google Drive
+<b>/{BotCommands.QbUnzipMirrorCommand}</b> [magnet_link]: Mulai mirroring menggunakan qBittorrent dan jika file yang diunduh adalah arsip apa pun, ekstrak ke Google Drive
 <br><br>
-<b>/{BotCommands.LeechCommand}</b> [download_url][magnet_link]: Start leeching to Telegram, Use <b>/{BotCommands.LeechCommand} s</b> to select files before leeching
+<b>/{BotCommands.LeechCommand}</b> [download_url][magnet_link]: Mulai leeching ke Telegram, Gunakan /leech s untuk memilih file sebelum leeching
 <br><br>
-<b>/{BotCommands.TarLeechCommand}</b> [download_url][magnet_link]:  Start leeching to Telegram and upload it as (.tar)
+<b>/{BotCommands.TarLeechCommand}</b> [download_url][magnet_link]: Mulai leeching ke Telegram dan unggah sebagai (.tar)
 <br><br>
-<b>/{BotCommands.ZipLeechCommand}</b> [download_url][magnet_link]: Start leeching to Telegram and upload it as (.zip)
+<b>/{BotCommands.ZipLeechCommand}</b> [download_url][magnet_link]: Mulai leeching ke Telegram dan unggah sebagai (.zip)
 <br><br>
-<b>/{BotCommands.UnzipLeechCommand}</b> [download_url][magnet_link]: Start leeching to Telegram and if downloaded file is any archive, extracts it to Telegram
+<b>/{BotCommands.UnzipLeechCommand}</b> [download_url][magnet_link]: Mulai leeching ke Telegram dan jika file yang diunduh adalah arsip apa pun, ekstrak ke Telegram
 <br><br>
-<b>/{BotCommands.QbLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent, Use <b>/{BotCommands.QbLeechCommand} s</b> to select files before leeching
+<b>/{BotCommands.QbLeechCommand}</b> [magnet_link]: Mulai leeching ke Telegram menggunakan qBittorrent, Gunakan /qbleech s untuk memilih file sebelum leeching
 <br><br>
-<b>/{BotCommands.QbTarLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and upload it as (.tar)
+<b>/{BotCommands.QbTarLeechCommand}</b> [magnet_link]: Mulai leeching ke Telegram menggunakan qBittorrent dan unggah sebagai (.tar)
 <br><br>
-<b>/{BotCommands.QbZipLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and upload it as (.zip)
+<b>/{BotCommands.QbZipLeechCommand}</b> [magnet_link]: Mulai leeching ke Telegram menggunakan qBittorrent dan unggah sebagai (.zip)
 <br><br>
-<b>/{BotCommands.QbUnzipLeechCommand}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and if downloaded file is any archive, extracts it to Telegram
+<b>/{BotCommands.QbUnzipLeechCommand}</b> [magnet_link]: Mulai leeching ke Telegram menggunakan qBittorrent dan jika file yang diunduh adalah arsip apa pun, ekstrak ke Telegram
 <br><br>
-<b>/{BotCommands.CloneCommand}</b> [drive_url]: Copy file/folder to Google Drive
+<b>/{BotCommands.CloneCommand}</b> [drive_url]: Salin file/folder ke Google Drive
 <br><br>
-<b>/{BotCommands.CountCommand}</b> [drive_url]: Count file/folder of Google Drive Links
+<b>/{BotCommands.CountCommand}</b> [drive_url]: Menghitung file/folder dari Tautan Google Drive
 <br><br>
-<b>/{BotCommands.DeleteCommand}</b> [drive_url]: Delete file from Google Drive (Only Owner & Sudo)
+<b>/{BotCommands.DeleteCommand}</b> [drive_url]: Hapus file dari Google Drive (Hanya Pemilik & Sudo)
 <br><br>
-<b>/{BotCommands.WatchCommand}</b> [youtube-dl supported link]: Mirror through youtube-dl. Click <b>/{BotCommands.WatchCommand}</b> for more help
+<b>/{BotCommands.WatchCommand}</b> [youtube-dl supported link]: Mirror melalui youtube-dl. Klik /tonton untuk bantuan lebih lanjut
 <br><br>
-<b>/{BotCommands.TarWatchCommand}</b> [youtube-dl supported link]: Mirror through youtube-dl and tar before uploading
+<b>/{BotCommands.TarWatchCommand}</b> [youtube-dl supported link]: Mirror melalui youtube-dl dan tar sebelum mengunggah
 <br><br>
-<b>/{BotCommands.ZipWatchCommand}</b> [youtube-dl supported link]: Mirror through youtube-dl and zip before uploading
+<b>/{BotCommands.ZipWatchCommand}</b> [youtube-dl supported link]: Mirror melalui youtube-dl dan zip sebelum mengunggah
 <br><br>
-<b>/{BotCommands.LeechWatchCommand}</b> [youtube-dl supported link]: Leech through youtube-dl 
+<b>/{BotCommands.LeechWatchCommand}</b> [youtube-dl supported link]: Leech melalui youtube-dl
 <br><br>
-<b>/{BotCommands.LeechTarWatchCommand}</b> [youtube-dl supported link]: Leech through youtube-dl and tar before uploading 
+<b>/{BotCommands.LeechTarWatchCommand}</b> [youtube-dl supported link]: Leech melalui youtube-dl dan tar sebelum mengunggah
 <br><br>
-<b>/{BotCommands.LeechZipWatchCommand}</b> [youtube-dl supported link]: Leech through youtube-dl and zip before uploading 
+<b>/{BotCommands.LeechZipWatchCommand}</b> [youtube-dl supported link]: Leech melalui youtube-dl dan zip sebelum mengunggah
 <br><br>
-<b>/{BotCommands.LeechSetCommand}</b>: Leech Settings 
+<b>/{BotCommands.LeechSetCommand}</b>: Pengaturan Leech
 <br><br>
-<b>/{BotCommands.SetThumbCommand}</b>: Reply photo to set it as Thumbnail
+<b>/{BotCommands.SetThumbCommand}</b>: Balas foto untuk mengaturnya sebagai Thumbnail
 <br><br>
-<b>/{BotCommands.CancelMirror}</b>: Reply to the message by which the download was initiated and that download will be cancelled
+<b>/{BotCommands.CancelMirror}</b>: Membalas pesan di mana unduhan dimulai dan unduhan itu akan dibatalkan
 <br><br>
-<b>/{BotCommands.CancelAllCommand}</b>: Cancel all running tasks
+<b>/{BotCommands.CancelAllCommand}</b>: Batalkan semua tugas yang sedang berjalan
 <br><br>
-<b>/{BotCommands.ListCommand}</b> [search term]: Searches the search term in the Google Drive, If found replies with the link
+<b>/{BotCommands.ListCommand}</b> [search term]: Mencari istilah pencarian di Google Drive, Jika ditemukan balasan dengan tautan
 <br><br>
-<b>/{BotCommands.StatusCommand}</b>: Shows a status of all the downloads
+<b>/{BotCommands.StatusCommand}</b>: Menampilkan status semua unduhan
 <br><br>
-<b>/{BotCommands.StatsCommand}</b>: Show Stats of the machine the bot is hosted on
+<b>/{BotCommands.StatsCommand}</b>: Tampilkan Statistik mesin tempat bot dihosting
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
-        title='Slam Mirrorbot Help',
-        author_name='Slam Mirrorbot',
-        author_url='https://github.com/SlamDevs/slam-mirrorbot',
+        title='Drew Mirror Help',
+        author_name='Kucin666',
+        author_url='t.me/bbabygail',
         html_content=help_string_telegraph,
     )["path"]
 
 help_string = f'''
-/{BotCommands.PingCommand}: Check how long it takes to Ping the Bot
+/{BotCommands.PingCommand}: Periksa berapa lama waktu yang dibutuhkan untuk melakukan Ping Bot
 
-/{BotCommands.AuthorizeCommand}: Authorize a chat or a user to use the bot (Can only be invoked by Owner & Sudo of the bot)
+/{BotCommands.AuthorizeCommand}: Mengotorisasi obrolan atau pengguna untuk menggunakan bot (Hanya Owner & Sudo bot)
 
-/{BotCommands.UnAuthorizeCommand}: Unauthorize a chat or a user to use the bot (Can only be invoked by Owner & Sudo of the bot)
+/{BotCommands.UnAuthorizeCommand}: Membatalkan otorisasi obrolan atau pengguna untuk menggunakan bot (Hanya Owner & Sudo bot)
 
-/{BotCommands.AuthorizedUsersCommand}: Show authorized users (Only Owner & Sudo)
+/{BotCommands.AuthorizedUsersCommand}: Tampilkan pengguna yang berwenang (Hanya Owner & Sudo)
 
-/{BotCommands.AddSudoCommand}: Add sudo user (Only Owner)
+/{BotCommands.AddSudoCommand}: Tambahkan pengguna sudo (Hanya Owner)
 
-/{BotCommands.RmSudoCommand}: Remove sudo users (Only Owner)
+/{BotCommands.RmSudoCommand}: Hapus pengguna Sudo (Hanya Owner)
 
-/{BotCommands.RestartCommand}: Restart the bot
+/{BotCommands.RestartCommand}: Mulai ulang bot
 
-/{BotCommands.LogCommand}: Get a log file of the bot. Handy for getting crash reports
+/{BotCommands.LogCommand}: Dapatkan file log bot. Berguna untuk mendapatkan laporan kerusakan
 
-/{BotCommands.SpeedCommand}: Check Internet Speed of the Host
+/{BotCommands.SpeedCommand}: Periksa Kecepatan Internet Host
 
-/{BotCommands.ShellCommand}: Run commands in Shell (Only Owner)
+/{BotCommands.ShellCommand}: Jalankan perintah di Shell (Hanya Owner)
 
-/{BotCommands.ExecHelpCommand}: Get help for Executor module (Only Owner)
+/{BotCommands.ExecHelpCommand}: Dapatkan bantuan untuk modul Executor (Hanya Owner)
 
-/{BotCommands.TsHelpCommand}: Get help for Torrent search module
+/{BotCommands.TsHelpCommand}: Dapatkan bantuan untuk modul pencarian Torrent
 '''
 
 def bot_help(update, context):
